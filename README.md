@@ -1,7 +1,7 @@
 # GameCollectionManagement
 
 
-A Windows Forms Application for managing and reviewing games. Users can add, edit, search, and filter games, leave reviews, and rate their games. The system includes user authentication, role-based access control, and CRUD operations for games and reviews.  
+A Sample of Windows Forms Application for managing and reviewing games. Users can add, edit, search, and filter games, leave reviews, and rate their games. The system includes user authentication, role-based access control, and CRUD operations for games and reviews.  
 
 ---
 
@@ -26,7 +26,8 @@ A Windows Forms Application for managing and reviewing games. Users can add, edi
 - **Rate Games**: Provide a rating between 1 and 5 for games.  
 - **Manage Reviews**:  
   - Edit or delete reviews.  
-  - View all reviews for a specific game.  
+  - View all reviews .
+  - Delete reviews according to user role 
 
 ---
 
@@ -35,5 +36,8 @@ A Windows Forms Application for managing and reviewing games. Users can add, edi
 - **Windows Forms**: For building the graphical user interface (GUI).  
 - **MS SQL Server**: For storing user, game, and review data.  
 - **ADO.NET**: Used for database operations, including direct SQL queries, stored procedures, and connections.  
+---
+## Database Information
+![Games DB](https://github.com/Melike10/GameCollectionManagement/blob/951db554488535a383509c5663cb9d39ea60dbb5/games%20db.png)
 
 
